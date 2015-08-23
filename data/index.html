@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ascii2MathML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="text/svg" href="img/a2ml.svg">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="input">
+      <ul class="controls">
+        <li>
+          <input type="checkbox" id="display-checkbox" checked>
+          <label for="display-checkbox">display</label>
+        </li>
+        <li>
+          <input type="checkbox" id="dir-checkbox">
+          <label for="dir-checkbox">direction</label>
+        </li>
+        <li>
+          <label for="decimal-mark-input">decimalMark="</label><!--
+       --><input type="text" id="decimal-mark-input" value="."><!--
+       --><label for="decimal-mark-input">"</label>
+        </li>
+        <li>
+          <label for="col-sep-input">colSep="</label><!--
+       --><input type="text" id="col-sep-input" value=","><!--
+       --><label for="col-sep-input">"</label>
+        </li>
+        <li>
+          <label for="row-sep-input">rowSep="</label><!--
+       --><input type="text" id="row-sep-input" value=";"><!--
+       --><label for="row-sep-input">"</label>
+        </li>
+      </ul>
+
+      <textarea id="input"></textarea>
+    </div>
+
+    <div class="output">
+      <output id="output"></output>
+    </div>
+
+    <script src="ascii2mathml.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

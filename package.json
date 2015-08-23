@@ -1,0 +1,14 @@
+{
+  "title": "Ascii2MathML",
+  "name": "ascii2mathml",
+  "version": "0.1.0",
+  "description": "Turn easy to write math into easy to read math.",
+  "keywords": "mathml, asciimath",
+  "main": "index.js",
+  "author": "Rúnar Berg Baugsson Sigríðarson",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT"
+}
