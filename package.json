@@ -1,7 +1,7 @@
 {
   "title": "Ascii2MathML",
   "name": "ascii2mathml",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Turn easy to write math into easy to read math.",
   "keywords": "mathml, asciimath",
   "main": "index.js",
